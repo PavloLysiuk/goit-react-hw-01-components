@@ -81,7 +81,8 @@ export const UserStatsItem = styled.li`
   height: 95px;
 
   background: #f4f6f9;
-  border: 1px solid #e8edf3;
+  border: 1px solid #e7ecf2;
+  border-top: 2px solid #e7ecf2;
 `;
 
 export const UserStatsTitle = styled.p`
