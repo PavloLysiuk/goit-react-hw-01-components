@@ -1,13 +1,14 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 
 export const UserCard = styled.div`
   margin: 40px auto;
 
   width: 285px;
 
-  border-radius: 6px;
+  border-radius: 8px;
   overflow: hidden;
 
+  border: 1px solid #fff;
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(50, 100, 150, 0.25);
 `;
@@ -68,6 +69,10 @@ export const UserStatsList = styled.ul`
   margin: 0;
 
   list-style: none;
+
+  border-radius: 7px;
+  overflow: hidden;
+  border: 2px solid #e7ecf2;
 `;
 
 export const UserStatsItem = styled.li`
@@ -81,8 +86,11 @@ export const UserStatsItem = styled.li`
   height: 95px;
 
   background: #f4f6f9;
-  border: 1px solid #e7ecf2;
-  border-top: 2px solid #e7ecf2;
+  border-right: 2px solid #e7ecf2;
+
+  &:last-child {
+    border: none;
+  }
 `;
 
 export const UserStatsTitle = styled.p`
