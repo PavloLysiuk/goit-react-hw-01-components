@@ -10,6 +10,13 @@ export const StatisticWrapper = styled.div`
   overflow: hidden;
 
   box-shadow: 0 1px 4px rgba(50, 100, 150, 0.25);
+  transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 12px rgba(50, 100, 150, 0.25);
+  }
 `;
 
 export const StatisticTitle = styled.h2`
