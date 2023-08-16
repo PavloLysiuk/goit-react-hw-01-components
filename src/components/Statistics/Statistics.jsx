@@ -1,19 +1,29 @@
-import { GetRandomColor } from './GetRandomColoor';
-// import { } from './Statistics.styled';
+import { getRandomHexColor } from './GetRandomColor';
+import {
+  StatisticWrapper,
+  StatisticTitle,
+  StatisticList,
+  StatisticItem,
+  StatisticLabel,
+  StatisticPercentage,
+} from './Statistics.styled';
 
-export const Statistics = () => {
-  const randomColor = GetRandomColor();
+export const Statistics = props => {
+  const { title, stats } = props;
   return (
-    <div
-      style={{
-        backgroundColor: randomColor,
-        color: '#fff',
-        padding: '10px',
-        borderRadius: '10px',
-      }}
-    >
-      <h1>Statistics</h1>
-    </div>
+    <StatisticWrapper>
+      <StatisticTitle>{title}</StatisticTitle>
+      <StatisticList>
+        {stats.map(({ id, label, percentage }) => {
+          const randomColor = getRandomHexColor();
+          return (
+            <StatisticItem key={id} style={{ backgroundColor: randomColor }}>
+              <StatisticLabel>{label}</StatisticLabel>
+              <StatisticPercentage>{percentage}%</StatisticPercentage>
+            </StatisticItem>
+          );
+        })}
+      </StatisticList>
+    </StatisticWrapper>
   );
-
-}
+};
