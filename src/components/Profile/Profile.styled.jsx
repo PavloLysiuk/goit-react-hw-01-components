@@ -3,13 +3,13 @@ import styled from '@emotion/styled';
 export const UserCard = styled.div`
   margin: 40px auto;
 
-  width: 300px;
+  width: 280px;
 
-  border-radius: 10px;
+  border-radius: 6px;
   overflow: hidden;
 
   background-color: #fff;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 4px rgba(50, 100, 150, 0.25);
 `;
 
 export const UserWrapper = styled.div`
@@ -18,7 +18,7 @@ export const UserWrapper = styled.div`
   align-items: center;
   justify-content: center;
 
-  padding: 30px 0;
+  padding: 40px 0;
 `;
 
 export const UserInfo = styled.div`
@@ -30,12 +30,17 @@ export const UserInfo = styled.div`
 
 export const UserAvatar = styled.img`
   display: block;
+
+  width: 100px;
+`;
+
+export const UserAvatarWrapper = styled.div`
   width: 100px;
 `;
 
 export const UserName = styled.h2`
   margin: 22px 0 0;
-  font-size: 20px;
+  font-size: 24px;
   color: #1a293b;
 `;
 
@@ -83,10 +88,9 @@ export const UserStatsTitle = styled.p`
   margin: 0;
   padding: 0;
 
-  font-size: 16px;
+  font-size: 14px;
 
   color: #909ca9;
-  // background: #f4f6f9;
 `;
 
 export const UserStatsQuantity = styled.p`
