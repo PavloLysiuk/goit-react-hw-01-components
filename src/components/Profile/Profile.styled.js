@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const UserCard = styled.div`
   margin: 40px auto;
 
-  width: 280px;
+  width: 285px;
 
   border-radius: 6px;
   overflow: hidden;
@@ -77,8 +77,8 @@ export const UserStatsItem = styled.li`
   align-items: center;
   row-gap: 8px;
 
-  width: 100px;
-  height: 85px;
+  width: 95px;
+  height: 95px;
 
   background: #f4f6f9;
   border: 1px solid #e8edf3;
