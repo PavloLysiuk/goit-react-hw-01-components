@@ -6,7 +6,7 @@ export const StatisticWrapper = styled.div`
   width: 475px;
 
   border: 1px solid #fff;
-  border-radius: 6px;
+  border-radius: 8px;
   overflow: hidden;
 
   box-shadow: 0 1px 4px rgba(50, 100, 150, 0.25);
