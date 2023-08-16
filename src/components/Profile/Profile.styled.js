@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const UserCard = styled.div`
-  margin: 40px auto;
+  margin: 0 auto 40px;
 
   width: 285px;
 
