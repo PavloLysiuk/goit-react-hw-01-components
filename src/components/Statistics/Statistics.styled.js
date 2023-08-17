@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
 
   width: 475px;
 
+  background-color: #fff;
   border: 1px solid #fff;
   border-radius: 8px;
   overflow: hidden;
@@ -27,7 +28,6 @@ export const Title = styled.h2`
   text-transform: uppercase;
 
   color: #1a293b;
-  background-color: #fff;
 
   text-align: center;
 `;
@@ -37,6 +37,10 @@ export const List = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
+
+  border-radius: 7px;
+
+  overflow: hidden;
 `;
 
 export const Item = styled.div`
