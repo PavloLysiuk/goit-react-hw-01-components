@@ -1,29 +1,29 @@
 import { getRandomHexColor } from './GetRandomColor';
 import {
-  StatisticWrapper,
-  StatisticTitle,
-  StatisticList,
-  StatisticItem,
-  StatisticLabel,
-  StatisticPercentage,
+  Wrapper,
+  Title,
+  List,
+  Item,
+  Label,
+  Percentage,
 } from './Statistics.styled';
 
 export const Statistics = props => {
   const { title, stats } = props;
   return (
-    <StatisticWrapper>
-      <StatisticTitle>{title}</StatisticTitle>
-      <StatisticList>
+    <Wrapper>
+      <Title>{title}</Title>
+      <List>
         {stats.map(({ id, label, percentage }) => {
           const randomColor = getRandomHexColor();
           return (
-            <StatisticItem key={id} style={{ backgroundColor: randomColor }}>
-              <StatisticLabel>{label}</StatisticLabel>
-              <StatisticPercentage>{percentage}%</StatisticPercentage>
-            </StatisticItem>
+            <Item key={id} style={{ backgroundColor: randomColor }}>
+              <Label>{label}</Label>
+              <Percentage>{percentage}%</Percentage>
+            </Item>
           );
         })}
-      </StatisticList>
-    </StatisticWrapper>
+      </List>
+    </Wrapper>
   );
 };

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StatisticWrapper = styled.div`
+export const Wrapper = styled.div`
   margin: 0 auto 40px;
 
   width: 475px;
@@ -19,7 +19,7 @@ export const StatisticWrapper = styled.div`
   }
 `;
 
-export const StatisticTitle = styled.h2`
+export const Title = styled.h2`
   font-size: 24px;
   margin: 0;
   padding: 24px 0;
@@ -32,14 +32,14 @@ export const StatisticTitle = styled.h2`
   text-align: center;
 `;
 
-export const StatisticList = styled.ul`
+export const List = styled.ul`
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
 `;
 
-export const StatisticItem = styled.div`
+export const Item = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +50,7 @@ export const StatisticItem = styled.div`
   height: 95px;
 `;
 
-export const StatisticLabel = styled.p`
+export const Label = styled.p`
   margin: 0;
   padding: 0;
 
@@ -60,7 +60,7 @@ export const StatisticLabel = styled.p`
   text-shadow: 0 2px 0px rgba(0, 0, 0, 0.35);
 `;
 
-export const StatisticPercentage = styled.p`
+export const Percentage = styled.p`
   margin: 0;
   padding: 0;
 

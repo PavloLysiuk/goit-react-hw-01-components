@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const UserCard = styled.div`
+export const Card = styled.div`
   margin: 0 auto 40px;
 
   width: 285px;
@@ -21,7 +21,7 @@ export const UserCard = styled.div`
   }
 `;
 
-export const UserWrapper = styled.div`
+export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,30 +30,30 @@ export const UserWrapper = styled.div`
   padding: 40px 0;
 `;
 
-export const UserInfo = styled.div`
+export const Info = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 `;
 
-export const UserAvatar = styled.img`
+export const Avatar = styled.img`
   display: block;
 
   width: 100px;
 `;
 
-export const UserAvatarWrapper = styled.div`
+export const AvatarWrapper = styled.div`
   width: 100px;
 `;
 
-export const UserName = styled.h2`
+export const Name = styled.h2`
   margin: 22px 0 0;
   font-size: 24px;
   color: #1a293b;
 `;
 
-export const UserTag = styled.p`
+export const Tag = styled.p`
   margin: 10px 0 0;
 
   font-size: 16px;
@@ -61,7 +61,7 @@ export const UserTag = styled.p`
   color: #909ca9;
 `;
 
-export const UserLocation = styled.p`
+export const Location = styled.p`
   margin: 10px 0 0;
 
   font-size: 16px;
@@ -69,7 +69,7 @@ export const UserLocation = styled.p`
   color: #909ca9;
 `;
 
-export const UserStatsList = styled.ul`
+export const StatsList = styled.ul`
   display: flex;
   justify-content: center;
 
@@ -83,7 +83,7 @@ export const UserStatsList = styled.ul`
   border: 2px solid #e7ecf2;
 `;
 
-export const UserStatsItem = styled.li`
+export const StatsItem = styled.li`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,7 +101,7 @@ export const UserStatsItem = styled.li`
   }
 `;
 
-export const UserStatsTitle = styled.p`
+export const StatsTitle = styled.p`
   margin: 0;
   padding: 0;
 
@@ -110,7 +110,7 @@ export const UserStatsTitle = styled.p`
   color: #909ca9;
 `;
 
-export const UserStatsQuantity = styled.p`
+export const StatsQuantity = styled.p`
   margin: 0;
   padding: 0;
 
