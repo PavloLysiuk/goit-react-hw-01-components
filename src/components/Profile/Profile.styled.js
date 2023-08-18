@@ -96,8 +96,14 @@ export const StatsItem = styled.li`
   background: #f4f6f9;
   border-right: 2px solid #e7ecf2;
 
+  transition: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1);
+
   &:last-child {
     border: none;
+  }
+
+  &:hover {
+    background-color: #e7ecf2;
   }
 `;
 
