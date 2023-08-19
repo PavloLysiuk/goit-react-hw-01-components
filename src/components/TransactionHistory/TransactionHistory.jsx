@@ -5,6 +5,7 @@ import {
   Rows,
   RowsText,
 } from './TransactionHistory.styled';
+
 export const TransactionHistory = ({ transactions }) => {
   return (
     <Container>
