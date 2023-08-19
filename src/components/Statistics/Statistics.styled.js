@@ -21,25 +21,20 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h2`
-  font-size: 24px;
   margin: 0;
   padding: 24px 0;
 
-  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
 
   color: #1a293b;
-
-  text-align: center;
 `;
 
 export const List = styled.ul`
   display: flex;
   list-style: none;
-  padding: 0;
-  margin: 0;
 
   border-radius: 7px;
-
   overflow: hidden;
 `;
 
@@ -55,9 +50,6 @@ export const Item = styled.div`
 `;
 
 export const Label = styled.p`
-  margin: 0;
-  padding: 0;
-
   font-size: 16px;
 
   color: #fff;
@@ -65,9 +57,6 @@ export const Label = styled.p`
 `;
 
 export const Percentage = styled.p`
-  margin: 0;
-  padding: 0;
-
   font-size: 24px;
   font-weight: 700;
 

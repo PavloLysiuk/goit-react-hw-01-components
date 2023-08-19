@@ -73,11 +73,6 @@ export const StatsList = styled.ul`
   display: flex;
   justify-content: center;
 
-  padding: 0;
-  margin: 0;
-
-  list-style: none;
-
   border-radius: 7px;
   overflow: hidden;
   border: 2px solid #e7ecf2;
@@ -108,18 +103,12 @@ export const StatsItem = styled.li`
 `;
 
 export const StatsTitle = styled.p`
-  margin: 0;
-  padding: 0;
-
   font-size: 14px;
 
   color: #909ca9;
 `;
 
 export const StatsQuantity = styled.p`
-  margin: 0;
-  padding: 0;
-
   font-size: 16px;
   font-weight: 700;
 

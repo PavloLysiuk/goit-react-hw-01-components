@@ -5,20 +5,14 @@ export const FriendsList = styled.ul`
   flex-direction: column;
   align-items: center;
   gap: 10px;
-
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
 `;
 
 export const FriendsItem = styled.li`
-  box-sizing: border-box;
   display: flex;
   align-items: center;
   gap: 15px;
 
-  padding: 10px 20px;
+  padding: 20px;
   width: 286px;
 
   border-radius: 8px;
@@ -50,7 +44,6 @@ export const FriendsAvatar = styled.img`
 export const FriendsName = styled.p`
   font-size: 24px;
   font-weight: 700;
-  color: #1a293b;
 
   color: ${props => (props.status ? '#1a293b' : '#1a293b50')};
 `;
