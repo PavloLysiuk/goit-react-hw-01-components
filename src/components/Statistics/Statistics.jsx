@@ -12,7 +12,7 @@ export const Statistics = props => {
   const { title, stats } = props;
   return (
     <Wrapper>
-      <Title>{title}</Title>
+      {title && <Title>{title}</Title>}
       <List>
         {stats.map(({ id, label, percentage }) => {
           const randomColor = getRandomHexColor();
