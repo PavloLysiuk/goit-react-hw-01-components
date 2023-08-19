@@ -5,6 +5,8 @@ export const FriendsList = styled.ul`
   flex-direction: column;
   align-items: center;
   gap: 10px;
+
+  margin-bottom: 40px;
 `;
 
 export const FriendsItem = styled.li`
