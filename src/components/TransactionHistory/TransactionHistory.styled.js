@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.table`
   margin: 0 auto;
 
-  width: 475px;
-
   text-align: center;
 
   border-radius: 8px;
@@ -49,6 +47,7 @@ export const Rows = styled.tr`
 `;
 
 export const RowsText = styled.td`
+width: 158px;
   padding: 8px 0;
   font-size: 14px;
 
