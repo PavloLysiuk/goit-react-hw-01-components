@@ -11,8 +11,9 @@ import {
   StatsQuantity,
 } from './Profile.styled';
 
-export const Profile = props => {
-  const { username, tag, location, avatar, followers, views, likes } = props;
+export const Profile = ({
+  user: { username, tag, location, avatar, stats },
+}) => {
   return (
     <Card>
       <Wrapper>
@@ -24,15 +25,15 @@ export const Profile = props => {
       <StatsList>
         <StatsItem>
           <StatsTitle>Followers</StatsTitle>
-          <StatsQuantity>{followers}</StatsQuantity>
+          <StatsQuantity>{stats.followers}</StatsQuantity>
         </StatsItem>
         <StatsItem>
           <StatsTitle>Views</StatsTitle>
-          <StatsQuantity>{views}</StatsQuantity>
+          <StatsQuantity>{stats.views}</StatsQuantity>
         </StatsItem>
         <StatsItem>
           <StatsTitle>Likes</StatsTitle>
-          <StatsQuantity>{likes}</StatsQuantity>
+          <StatsQuantity>{stats.likes}</StatsQuantity>
         </StatsItem>
       </StatsList>
     </Card>
